@@ -57,7 +57,7 @@ declare module "react-places-autocomplete" {
   var geocodeByPlaceId: (string) => Promise<any>;
   var getLatLng: (object) => Promise<any>;
 
-  export default class PlacesAutocomplete extends React.Component<PlacesAutocompleteProps, void> {}
+  export default class PlacesAutocomplete extends React.Component<PlacesAutocompleteProps, any> {}
 
   export {
     PlacesAutocomplete,
